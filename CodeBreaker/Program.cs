@@ -52,7 +52,7 @@ namespace CodeBreaker
         }
 
         static bool validateNumber(string number) {
-            return number.All(Char.IsDigit) && (number.Distinct().Count() == 4) && number.Count() == 4;
+            return number.All(Char.IsDigit) && number.Distinct().Count() == 4 && number.Count() == 4;
         }
 
         static void processClues(string number) {
