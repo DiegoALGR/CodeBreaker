@@ -11,7 +11,7 @@ namespace CodeBreaker
         {
             generateRandomNumber();
             printInstructions();
-            Console.WriteLine("Preciona cualquier letra para comenzar");
+            Console.WriteLine("Presiona cualquier letra para comenzar");
             Console.ReadKey();
             while (true){
                 if (game()) {
